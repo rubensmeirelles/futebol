@@ -1,0 +1,135 @@
+body{/* Determine o lugar onde quer que esse efeito ocorra */
+  scroll-behavior: smooth /* Fim, agora você precisa fazer links em html para ir a alguma id por exemplo #contato */
+}
+.bg-light, .footer {
+    background-color: #2F4F4F !important;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+}
+.navbar .navbar-nav{
+	margin: 0 auto;
+}
+.navbar .nav-item a{
+	color:#fff !important;
+}
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.navbar-toggler-icon{
+	background-color:#fff;
+}
+.main{
+	background-image:url("../imagens/futebol.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100vh;
+	
+}
+.text-conteudo h1{
+	text-align: center;
+}
+#jumbotron-conteudo{
+	padding-top:150px;
+}
+.jumbotron{
+	background-color: rgba(26, 32, 213, 0.5) !important;
+}
+.quem-somos{
+	margin: 100px auto;
+}
+.inscricao{
+	background-image:url("../imagens/futebol2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;	
+}
+
+.informes{
+	padding: 50px 50px;
+}
+.inscricao h2, p, li{
+	color: #fff;
+}
+.formulario{
+	margin-top: 50px;
+}
+
+.ficha{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.informes{
+	font-size:1,5em;
+}
+hr{
+	border-top: solid 2px blue;
+}
+.lista::before{
+	background-image:url(../icone/bolaFut.png);
+	background-size: 25px 25px;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    content:"";
+	margin-right: 15px;
+}
+li.lista{
+	font-size:1.5em;
+}
+.margem::before{
+	content:"";
+	display:block;
+	margin: 25px auto;
+	border-bottom: solid 4px #EEE9E9;
+	max-width: 450px;
+}
+
+.separador::before{
+	background-image:url(../icone/jogador.png);
+	background-size: 25px 25px;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    content:"";
+	margin-right: 15px;	
+}
+
+.separador::after{
+	content:"";
+	display: block;
+    width: 25px; 
+    border-top: 10px solid #2E8B57;	
+}
+
+button{
+	margin:30px 0 30px 0;
+}
+
+.icon{
+margin-right: 15px;
+}
+
+.si-glyph-phone-number{
+	fill: #fff;
+}
+
+.contato{
+	background-color:#228B22;
+}
+
+.text-contato{
+	padding-top: 20px;
+	padding-bottom: 30px
+}
+
+.conteudo-contato{
+	color: white;
+	padding: 25px 0 25px 0;
+}
+
+.footer{
+	padding: 35px 0 35px 0;
+}
